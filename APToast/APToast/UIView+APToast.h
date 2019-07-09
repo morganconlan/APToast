@@ -26,7 +26,6 @@ typedef NS_ENUM(NSInteger, APToastPosition) {
  *  Make simple toast with `toastText` with default position and duration.
  *
  *  @param toastText  The toast text
- *  @param duration   Toasting `duration`
  *
  *  @return Unique auto-generated `toastID`, which can be used to force early completion toasting or `NSNotFound` (if toast not queued due to incorrect parameters)
  */

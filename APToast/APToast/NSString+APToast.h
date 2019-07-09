@@ -5,7 +5,7 @@
 //  Copyright (c) 2014 Andrew Podkovyrin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIkit.h>
 
 @interface NSString (APToast)
 

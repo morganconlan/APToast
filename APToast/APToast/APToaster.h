@@ -5,7 +5,7 @@
 //  Copyright (c) 2014 Andrew Podkovyrin. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  *  Toasts manager class

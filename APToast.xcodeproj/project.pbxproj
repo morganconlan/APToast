@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01D2823D22D4EF2A00D41F6E /* APToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D2823422D4EF2900D41F6E /* APToast.framework */; };
+		01D2824222D4EF2A00D41F6E /* APToast_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D2824122D4EF2A00D41F6E /* APToast_FrameworkTests.m */; };
+		01D2824422D4EF2A00D41F6E /* APToast_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D2823622D4EF2900D41F6E /* APToast_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D2824B22D4EF5400D41F6E /* APToast.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F576F190179490024AB16 /* APToast.h */; };
+		01D2824C22D4EF5400D41F6E /* APToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5770190179490024AB16 /* APToast.m */; };
+		01D2824D22D4EF5400D41F6E /* APToaster.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5771190179490024AB16 /* APToaster.h */; };
+		01D2824E22D4EF5400D41F6E /* APToaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5772190179490024AB16 /* APToaster.m */; };
+		01D2824F22D4EF5400D41F6E /* NSString+APToast.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5773190179490024AB16 /* NSString+APToast.h */; };
+		01D2825022D4EF5400D41F6E /* NSString+APToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5774190179490024AB16 /* NSString+APToast.m */; };
+		01D2825122D4EF5400D41F6E /* UIView+APToast.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5775190179490024AB16 /* UIView+APToast.h */; };
+		01D2825222D4EF5400D41F6E /* UIView+APToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5776190179490024AB16 /* UIView+APToast.m */; };
+		01D2825322D4EF5400D41F6E /* UIView+APToastStyle.h in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5778190179490024AB16 /* UIView+APToastStyle.h */; };
+		01D2825422D4EF5400D41F6E /* UIView+APToastStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5779190179490024AB16 /* UIView+APToastStyle.m */; };
+		01D2825522D4FF8D00D41F6E /* APToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F576F190179490024AB16 /* APToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D2825622D4FFF200D41F6E /* NSString+APToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F5773190179490024AB16 /* NSString+APToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D2825722D4FFF500D41F6E /* UIView+APToastStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F5778190179490024AB16 /* UIView+APToastStyle.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		01D2825822D5000000D41F6E /* APToaster.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1F5771190179490024AB16 /* APToaster.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		2A1F577A190179490024AB16 /* APToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5770190179490024AB16 /* APToast.m */; };
 		2A1F577B190179490024AB16 /* APToaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5772190179490024AB16 /* APToaster.m */; };
 		2A1F577C190179490024AB16 /* NSString+APToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1F5774190179490024AB16 /* NSString+APToast.m */; };
@@ -22,7 +39,23 @@
 		2A920BE518EDA2FD00C7CEE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A920BE418EDA2FD00C7CEE7 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		01D2823E22D4EF2A00D41F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A920BC118EDA2FD00C7CEE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D2823322D4EF2900D41F6E;
+			remoteInfo = "APToast Framework";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		01D2823422D4EF2900D41F6E /* APToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D2823622D4EF2900D41F6E /* APToast_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APToast_Framework.h; sourceTree = "<group>"; };
+		01D2823722D4EF2900D41F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D2823C22D4EF2A00D41F6E /* APToast FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APToast FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D2824122D4EF2A00D41F6E /* APToast_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APToast_FrameworkTests.m; sourceTree = "<group>"; };
+		01D2824322D4EF2A00D41F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A1F576F190179490024AB16 /* APToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APToast.h; sourceTree = "<group>"; };
 		2A1F5770190179490024AB16 /* APToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APToast.m; sourceTree = "<group>"; };
 		2A1F5771190179490024AB16 /* APToaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APToaster.h; sourceTree = "<group>"; };
@@ -35,7 +68,7 @@
 		2A1F5779190179490024AB16 /* UIView+APToastStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+APToastStyle.m"; sourceTree = "<group>"; };
 		2A1F57801902994F0024AB16 /* APToastExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APToastExampleViewController.h; sourceTree = "<group>"; };
 		2A1F57811902994F0024AB16 /* APToastExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APToastExampleViewController.m; sourceTree = "<group>"; };
-		2A920BC918EDA2FD00C7CEE7 /* APToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A920BC918EDA2FD00C7CEE7 /* APToast-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APToast-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A920BCC18EDA2FD00C7CEE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2A920BCE18EDA2FD00C7CEE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2A920BD018EDA2FD00C7CEE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +83,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01D2823122D4EF2900D41F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D2823922D4EF2A00D41F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D2823D22D4EF2A00D41F6E /* APToast.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A920BC618EDA2FD00C7CEE7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,6 +111,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D2823522D4EF2900D41F6E /* APToast Framework */ = {
+			isa = PBXGroup;
+			children = (
+				01D2823622D4EF2900D41F6E /* APToast_Framework.h */,
+				01D2823722D4EF2900D41F6E /* Info.plist */,
+			);
+			path = "APToast Framework";
+			sourceTree = "<group>";
+		};
+		01D2824022D4EF2A00D41F6E /* APToast FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				01D2824122D4EF2A00D41F6E /* APToast_FrameworkTests.m */,
+				01D2824322D4EF2A00D41F6E /* Info.plist */,
+			);
+			path = "APToast FrameworkTests";
+			sourceTree = "<group>";
+		};
 		2A1F576E190179490024AB16 /* APToast */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				2A920BD218EDA2FD00C7CEE7 /* APToast */,
+				01D2823522D4EF2900D41F6E /* APToast Framework */,
+				01D2824022D4EF2A00D41F6E /* APToast FrameworkTests */,
 				2A920BCB18EDA2FD00C7CEE7 /* Frameworks */,
 				2A920BCA18EDA2FD00C7CEE7 /* Products */,
 			);
@@ -92,7 +160,9 @@
 		2A920BCA18EDA2FD00C7CEE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A920BC918EDA2FD00C7CEE7 /* APToast.app */,
+				2A920BC918EDA2FD00C7CEE7 /* APToast-Demo.app */,
+				01D2823422D4EF2900D41F6E /* APToast.framework */,
+				01D2823C22D4EF2A00D41F6E /* APToast FrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,10 +205,61 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		01D2822F22D4EF2900D41F6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D2824422D4EF2A00D41F6E /* APToast_Framework.h in Headers */,
+				01D2825522D4FF8D00D41F6E /* APToast.h in Headers */,
+				01D2825622D4FFF200D41F6E /* NSString+APToast.h in Headers */,
+				01D2825722D4FFF500D41F6E /* UIView+APToastStyle.h in Headers */,
+				01D2825822D5000000D41F6E /* APToaster.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		2A920BC818EDA2FD00C7CEE7 /* APToast */ = {
+		01D2823322D4EF2900D41F6E /* APToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A920BFB18EDA2FE00C7CEE7 /* Build configuration list for PBXNativeTarget "APToast" */;
+			buildConfigurationList = 01D2824922D4EF2A00D41F6E /* Build configuration list for PBXNativeTarget "APToast" */;
+			buildPhases = (
+				01D2822F22D4EF2900D41F6E /* Headers */,
+				01D2823022D4EF2900D41F6E /* Sources */,
+				01D2823122D4EF2900D41F6E /* Frameworks */,
+				01D2823222D4EF2900D41F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APToast;
+			productName = "APToast Framework";
+			productReference = 01D2823422D4EF2900D41F6E /* APToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01D2823B22D4EF2A00D41F6E /* APToast FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D2824A22D4EF2A00D41F6E /* Build configuration list for PBXNativeTarget "APToast FrameworkTests" */;
+			buildPhases = (
+				01D2823822D4EF2A00D41F6E /* Sources */,
+				01D2823922D4EF2A00D41F6E /* Frameworks */,
+				01D2823A22D4EF2A00D41F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D2823F22D4EF2A00D41F6E /* PBXTargetDependency */,
+			);
+			name = "APToast FrameworkTests";
+			productName = "APToast FrameworkTests";
+			productReference = 01D2823C22D4EF2A00D41F6E /* APToast FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A920BC818EDA2FD00C7CEE7 /* APToast-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A920BFB18EDA2FE00C7CEE7 /* Build configuration list for PBXNativeTarget "APToast-Demo" */;
 			buildPhases = (
 				2A920BC518EDA2FD00C7CEE7 /* Sources */,
 				2A920BC618EDA2FD00C7CEE7 /* Frameworks */,
@@ -148,9 +269,9 @@
 			);
 			dependencies = (
 			);
-			name = APToast;
+			name = "APToast-Demo";
 			productName = APToast;
-			productReference = 2A920BC918EDA2FD00C7CEE7 /* APToast.app */;
+			productReference = 2A920BC918EDA2FD00C7CEE7 /* APToast-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -162,12 +283,25 @@
 				CLASSPREFIX = AP;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Andrew Podkovyrin";
+				TargetAttributes = {
+					01D2823322D4EF2900D41F6E = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 6999X7WA58;
+						ProvisioningStyle = Automatic;
+					};
+					01D2823B22D4EF2A00D41F6E = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = 6999X7WA58;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2A920BC418EDA2FD00C7CEE7 /* Build configuration list for PBXProject "APToast" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -176,12 +310,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A920BC818EDA2FD00C7CEE7 /* APToast */,
+				2A920BC818EDA2FD00C7CEE7 /* APToast-Demo */,
+				01D2823322D4EF2900D41F6E /* APToast */,
+				01D2823B22D4EF2A00D41F6E /* APToast FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		01D2823222D4EF2900D41F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D2823A22D4EF2A00D41F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A920BC718EDA2FD00C7CEE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,6 +344,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01D2823022D4EF2900D41F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D2824B22D4EF5400D41F6E /* APToast.h in Sources */,
+				01D2824C22D4EF5400D41F6E /* APToast.m in Sources */,
+				01D2824D22D4EF5400D41F6E /* APToaster.h in Sources */,
+				01D2824E22D4EF5400D41F6E /* APToaster.m in Sources */,
+				01D2824F22D4EF5400D41F6E /* NSString+APToast.h in Sources */,
+				01D2825022D4EF5400D41F6E /* NSString+APToast.m in Sources */,
+				01D2825122D4EF5400D41F6E /* UIView+APToast.h in Sources */,
+				01D2825222D4EF5400D41F6E /* UIView+APToast.m in Sources */,
+				01D2825322D4EF5400D41F6E /* UIView+APToastStyle.h in Sources */,
+				01D2825422D4EF5400D41F6E /* UIView+APToastStyle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D2823822D4EF2A00D41F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D2824222D4EF2A00D41F6E /* APToast_FrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A920BC518EDA2FD00C7CEE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +386,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		01D2823F22D4EF2A00D41F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D2823322D4EF2900D41F6E /* APToast */;
+			targetProxy = 01D2823E22D4EF2A00D41F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		2A920BD518EDA2FD00C7CEE7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -223,6 +406,180 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		01D2824522D4EF2A00D41F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "APToast Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangr.APToast-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		01D2824622D4EF2A00D41F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "APToast Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangr.APToast-Framework";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		01D2824722D4EF2A00D41F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "APToast FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangr.APToast-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D2824822D4EF2A00D41F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6999X7WA58;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "APToast FrameworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pangr.APToast-FrameworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		2A920BF918EDA2FE00C7CEE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +679,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		01D2824922D4EF2A00D41F6E /* Build configuration list for PBXNativeTarget "APToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D2824522D4EF2A00D41F6E /* Debug */,
+				01D2824622D4EF2A00D41F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D2824A22D4EF2A00D41F6E /* Build configuration list for PBXNativeTarget "APToast FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D2824722D4EF2A00D41F6E /* Debug */,
+				01D2824822D4EF2A00D41F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2A920BC418EDA2FD00C7CEE7 /* Build configuration list for PBXProject "APToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -331,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A920BFB18EDA2FE00C7CEE7 /* Build configuration list for PBXNativeTarget "APToast" */ = {
+		2A920BFB18EDA2FE00C7CEE7 /* Build configuration list for PBXNativeTarget "APToast-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A920BFC18EDA2FE00C7CEE7 /* Debug */,
